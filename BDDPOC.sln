@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDDPOC", "BDDPOC\BDDPOC.csproj", "{A3C5E305-4A0A-4EA6-A14B-F13B66C7BE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDDPOCTest", "BDDPOCTest\BDDPOCTest.csproj", "{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3C5E305-4A0A-4EA6-A14B-F13B66C7BE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C5E305-4A0A-4EA6-A14B-F13B66C7BE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C5E305-4A0A-4EA6-A14B-F13B66C7BE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C5E305-4A0A-4EA6-A14B-F13B66C7BE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A06C4D66-0136-4443-8875-AF59D9D7D328}
+	EndGlobalSection
+EndGlobal

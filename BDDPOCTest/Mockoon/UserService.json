@@ -1,0 +1,92 @@
+{
+    "source": "mockoon:1.15.0",
+    "data": [
+        {
+            "type": "environment",
+            "item": {
+                "uuid": "",
+                "lastMigration": 17,
+                "name": "Demo API",
+                "endpointPrefix": "",
+                "latency": 0,
+                "port": 3000,
+                "hostname": "0.0.0.0",
+                "routes": [
+                    {
+                        "uuid": "",
+                        "documentation": "Generate random body (JSON, text, CSV, etc) with templating",
+                        "method": "get",
+                        "endpoint": "users",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "[\r\n  {\r\n    \"userId\": 50300,\r\n    \"firstname\": \"Adrain\",\r\n    \"lastname\": \"Predovic\",\r\n    \"age\": 51\r\n  },\r\n  {\r\n    \"userId\": 20318,\r\n    \"firstname\": \"Anita\",\r\n    \"lastname\": \"Trantow\",\r\n    \"age\": 32\r\n  },\r\n  {\r\n    \"userId\": 29844,\r\n    \"firstname\": \"Ernest\",\r\n    \"lastname\": \"Stanton\",\r\n    \"age\": 32\r\n  }\r\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Creates 10 random users, or the amount specified in the 'total' query param",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    },
+                    {
+                        "uuid": "",
+                        "documentation": "Generate random body (JSON, text, CSV, etc) with templating",
+                        "method": "get",
+                        "endpoint": "users/random",
+                        "responses": [
+                            {
+                                "uuid": "",
+                                "body": "[\n    {{# repeat (queryParam 'total' '10') }}\n      {\n        \"userId\": {{ faker 'random.number' min=10000 max=100000 }},\n        \"firstname\": \"{{ faker 'name.firstName' }}\",\n        \"lastname\": \"{{ faker 'name.lastName' }}\",\n        \"age\": {{ faker 'random.number' min=18 max=60 }}\n      },\n    {{/ repeat }}\n]",
+                                "latency": 0,
+                                "statusCode": 200,
+                                "label": "Creates 10 random users, or the amount specified in the 'total' query param",
+                                "headers": [],
+                                "filePath": "",
+                                "sendFileAsBody": false,
+                                "rules": [],
+                                "rulesOperator": "OR",
+                                "disableTemplating": false,
+                                "fallbackTo404": false
+                            }
+                        ],
+                        "enabled": true,
+                        "randomResponse": false,
+                        "sequentialResponse": false
+                    }
+                ],
+                "proxyMode": false,
+                "proxyHost": "",
+                "proxyRemovePrefix": false,
+                "https": false,
+                "cors": true,
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "proxyReqHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ],
+                "proxyResHeaders": [
+                    {
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            }
+        }
+    ]
+}
