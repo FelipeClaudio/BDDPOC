@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDDPOC", "BDDPOC\BDDPOC.csproj", "{A3C5E305-4A0A-4EA6-A14B-F13B66C7BE1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDDPOCTest", "BDDPOCTest\BDDPOCTest.csproj", "{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDDPOCTest", "BDDPOCTest\BDDPOCTest.csproj", "{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowProjectBDDPOC", "SpecFlowProjectBDDPOC\SpecFlowProjectBDDPOC.csproj", "{2BBBAFAA-4255-4ADC-86FC-19662F008964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB1363FF-5C62-4B2A-82E1-F340C5351CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBBAFAA-4255-4ADC-86FC-19662F008964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBBAFAA-4255-4ADC-86FC-19662F008964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBBAFAA-4255-4ADC-86FC-19662F008964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBBAFAA-4255-4ADC-86FC-19662F008964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
